@@ -7,7 +7,7 @@ A collapsible section / section list with customizable section body and child bo
 
 ## Usage
 
-1. Minimal Example
+### 1. Minimal Example
 
 ```
 <CollapsibleSection header={
@@ -15,19 +15,16 @@ A collapsible section / section list with customizable section body and child bo
     padding: 10,
     justifyContent: 'center',
   }}>
-    <Text>
-      This is awesome header
-    </Text>
+    <Text>This is header</Text>
   </View>
 }>
   <View>
-    <Text>This is awesome body</Text>
-    <Text>This is awesome body</Text>
+    <Text>This is body</Text>
   </View>
 </CollapsibleSection>
 ```
 
-2. Full Example
+### 2. Full Example
 
 ```
 import React from 'react';
@@ -58,16 +55,14 @@ export default class MyExample extends React.Component {
 
 ```
 
-3. Flatlist Example (Usage as expandable section list)
+### 3. Flatlist Example (Usage as expandable section list)
 
 ```
 import React from 'react';
 import { View, Text, FlatList } from 'react-native;
 import CollapsibleSection from 'rn-collapsible-section';
 
-export default class MyExample extends React.Component {
-
-  const favouriteMovies = [
+const favouriteMovies = [
     'Mood of the Day',
     'On your Wedding Day',
     'Seducing Mr. Perfect',
@@ -80,6 +75,8 @@ export default class MyExample extends React.Component {
     'Cheese in Trap',
     'Love 911'
   ]
+
+export default class MyExample extends React.Component {
   
   render() {
     return (
