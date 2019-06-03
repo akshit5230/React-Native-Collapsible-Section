@@ -1,0 +1,29 @@
+{
+  "name": "rn-collapsible-section",
+  "version": "1.0.0",
+  "description": "A simple collapsible section or a list item which can be collapsed with custom body.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo 'test'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshit5230/React-Native-Collapsible-Section.git"
+  },
+  "keywords": [
+    "section",
+    "collapsible",
+    "animatable",
+    "react",
+    "native",
+    "android",
+    "ios",
+    "simple"
+  ],
+  "author": "akshit5230",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshit5230/React-Native-Collapsible-Section/issues"
+  },
+  "homepage": "https://github.com/akshit5230/React-Native-Collapsible-Section#readme"
+}
